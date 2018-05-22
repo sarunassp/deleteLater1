@@ -9,4 +9,12 @@
     <interceptors>
         <class>lt.vu.interceptors.MethodLogger</class>
     </interceptors>
+    <alternatives>
+        <class>lt.vu.services.PrinterA</class>
+    </alternatives>
+    <decorators>
+        <class>
+            lt.vu.services.PrinterDecorator
+        </class>
+    </decorators>
 </beans>

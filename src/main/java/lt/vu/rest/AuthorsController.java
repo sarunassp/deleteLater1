@@ -1,6 +1,7 @@
 package lt.vu.rest;
 
 import lt.vu.entities.Author;
+import lt.vu.interceptors.LoggedInvocation;
 import lt.vu.persistence.AuthorsDAO;
 
 import javax.enterprise.context.ApplicationScoped;
